@@ -8,4 +8,4 @@ BMI=weight_float/height_float**2
 
 #     formatting a float to 2 decimal places :
 BMI_format="{:.2f}".format(BMI)
-print(BMI_format)
+print(f"Your BMI is: {BMI_format}")
