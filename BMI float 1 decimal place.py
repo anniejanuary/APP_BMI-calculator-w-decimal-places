@@ -9,3 +9,8 @@ BMI=weight_float/height_float**2
 #     formatting a float to 2 decimal places :
 BMI_format="{:.1f}".format(BMI)
 print(f"Your BMI is: {BMI_format}")
+
+#     or formatting a float to int for an int BMI
+BMI_format=int(BMI)
+print(f"Your BMI is: {BMI_format}")
+
